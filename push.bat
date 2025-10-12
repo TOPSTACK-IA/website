@@ -15,6 +15,8 @@ if "%commitMessage%"=="" (
     git commit -m "%commitMessage%"
 )
 
+git branch -M main
+
 echo.
 echo Pushing to origin main...
 git push origin main --force
